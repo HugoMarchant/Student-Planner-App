@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navHomeFragment"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/window1_title"/>
+        <item
+            android:id="@+id/navTimetableFragment"
+            android:icon="@drawable/ic_menu_timetable1"
+            android:title="@string/window2_title"/>
+        <item
+            android:id="@+id/navPlannerFragment"
+            android:icon="@drawable/ic_menu_planner"
+            android:title="@string/window3_title"/>
+        <item
+            android:id="@+id/navCalenderFragment"
+            android:icon="@drawable/ic_menu_calender"
+            android:title="@string/window4_title"/>
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/navSettingsFragment"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/sub_window1_title"/>
+        </menu>
+    </item>
+
+</menu>

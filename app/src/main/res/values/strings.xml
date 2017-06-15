@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Drawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="window1_title">Home</string>
+    <string name="window2_title">Timetable</string>
+    <string name="window3_title">Planner</string>
+    <string name="window4_title">Calender</string>
+    <string name="sub_window1_title">Settings</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="timetableFragmentTitle">Timetable Fragment</string>
+    <string name="homeFragmentTitle">Home Fragment</string>
+    <string name="plannerFragmentTitle">Planner Fragment</string>
+    <string name="calenderFragmentTitle">Calender Fragment</string>
+    <string name="settingsFragmentTitle">Settings Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

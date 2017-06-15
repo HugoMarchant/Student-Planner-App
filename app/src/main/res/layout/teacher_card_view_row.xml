@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/teacherCardView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="2dp"
+        card_view:cardCornerRadius="2dp">
+
+        <TextView
+            android:id="@+id/tvTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"/>
+
+        <ImageButton
+            android:id="@+id/butTeacher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/plus_circle"
+            android:background="@null">
+        </ImageButton>
+</android.support.v7.widget.CardView>
+</LinearLayout>

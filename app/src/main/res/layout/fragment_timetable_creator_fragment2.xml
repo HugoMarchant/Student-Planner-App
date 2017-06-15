@@ -1,0 +1,432 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.development.hugomarchant.drawer.TimetableCreatorFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckedTextView
+                android:text="Art"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView"
+                android:textSize="20sp"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:elevation="0dp"
+                android:accessibilityLiveRegion="none"
+                android:longClickable="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Biology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView1"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Chemistry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView2"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Classics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView3"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="D.T."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView4"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Drama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView5"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Economics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView6"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="English"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView7"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Food Tech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView8"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="French"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView9"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Geography"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView10"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+            android:text="German"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkedTextView11"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:gravity="center_vertical"
+            android:checkMark="@drawable/uncheckedbox"
+            android:checked="false"
+            android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="History"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView12"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="I.T."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView13"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Latin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView14"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Maths"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView15"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView16"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Music Tech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView17"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="P.E."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView18"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Physics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView19"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Politics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView20"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Psychology"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView21"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="R.S."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView22"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <CheckedTextView
+                android:text="Spanish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkedTextView23"
+                android:textSize="20sp"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:checkMark="@drawable/uncheckedbox"
+                android:checked="false"
+                android:background="@drawable/clickfeedback"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
